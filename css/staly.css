@@ -1,19 +1,23 @@
-*{
+* {
     margin: 0 auto;
     padding: 0 auto;
     list-style: none;
 }
-a{
+
+a {
     display: inline-block;
     text-decoration: none;
 }
-img{
+
+img {
     width: 100%;
 }
-body{
+
+body {
     font-family: sans-serif;
 }
-header{
+
+header {
     background-image: url("../img/IMAGE\ \(46\).png");
     background-size: 100%;
     width: 100%;
@@ -21,38 +25,46 @@ header{
     padding-top: 30px;
     padding-bottom: 100px;
 }
-.container{
+
+.container {
     width: 1140px;
     margin: 0 auto;
 }
-.navbar .container{
+
+.navbar .container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.navbar .container img{
+
+.navbar .container img {
     width: 100px;
 }
-.nav_list{
+
+.nav_list {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.nav_item{
-   
+
+.nav_item {
+
     margin: 0 20px;
-   
+
 }
-.nav_item a{
+
+.nav_item a {
     color: aliceblue;
     transition: .6s;
     font-size: 20px;
 }
-.nav_item a:hover{
+
+.nav_item a:hover {
     transform: scale(1.2);
     color: blueviolet;
 }
-.nav_link{
+
+.nav_link {
     color: #FFFFFF;
     font-size: 20px;
     border: solid white 1px;
@@ -61,28 +73,33 @@ header{
     border-radius: 5px;
 
 }
-.nav_link:hover{
+
+.nav_link:hover {
     background-color: brown;
     color: rgb(189, 178, 178);
     transform: scale(1.2);
     box-shadow: 0 0 20px 3px blue;
 }
-main{
+
+main {
     text-align: center;
 }
-main h1{
+
+main h1 {
     font-size: 50px;
     color: #FFFFFF;
     margin-top: 100px;
     margin-bottom: 50px;
 }
-main p{
+
+main p {
     font-size: 12px;
     font-weight: bold;
     color: #FFFFFF;
     margin-bottom: 50px;
 }
-main a{
+
+main a {
     background-color: #5AB963;
     font-size: 13px;
     color: #FFFFFF;
@@ -91,9 +108,36 @@ main a{
     transition: .6s;
 
 }
-main a:hover{
+
+main a:hover {
     transform: scale(1.2);
     background-color: brown;
     box-shadow: 0 0 20px 3px blue;
 
+}
+
+.propel_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.propel_item{
+    width: 33%;
+}
+
+.propel_item img {
+    width: 40px;
+}
+
+.propel_item h4 {
+    font-size: 13px;
+    margin: 10px 0;
+}
+.propel_item p{
+    font-size: 10px;
+    color: darkgray;
+    width: 50%;
+    margin-right: 50%;
+    line-height: 15px;
 }

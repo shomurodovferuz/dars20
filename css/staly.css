@@ -218,3 +218,50 @@ main a:hover {
     color: darkgray;
     line-height: 35px;
 }
+.elit_number {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+   
+}
+.elet_img{
+   width: 30%;
+   margin-left: 20%;
+   
+}
+.elit_text{
+    width: 50%;
+}
+.elit_text h3{
+    font-size: 21px;
+    width: 70%;
+    
+}
+.elit_text h3 p{
+    font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+
+}
+.elit_text .elit_subtext{
+    font-size: 15px;
+    color: darkgray;
+    line-height: 30px;
+    width: 70%;
+}
+.elit_img img{
+    width: 400px;
+
+}
+.elit_title{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 12px;
+    margin-top: 50px;
+    line-height: 20px;
+}
+.elit_title a{
+    color: #5AB963;
+    margin-bottom: 100px;
+}

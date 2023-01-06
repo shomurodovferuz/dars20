@@ -192,3 +192,29 @@ main a:hover {
     margin-top: 10px;
     margin-bottom: 100px
 }
+.tempor .container{
+    display: flex;
+}
+.tempor_img, .tempor_text{
+    width: 45%;
+
+}
+.tempor_img img{
+    width: 400px;
+}
+.tempor_text h2 {
+    font-size: 23px;
+    line-height: 30px;
+    margin-top: 20px;
+ 
+}
+.tempor_text h2 h3{
+    color: darkgray;
+    font-weight: 100;
+}
+.tempor_text p{
+    margin-top: 40px;
+    font-size: 20px;
+    color: darkgray;
+    line-height: 35px;
+}

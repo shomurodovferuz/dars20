@@ -163,3 +163,9 @@ main a:hover {
     color: black;
     font-size: 25px;
 }
+.look{
+    background-image: url("../img/IMAGE\ \(50\).png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 400px 0;
+}

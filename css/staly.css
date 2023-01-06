@@ -121,8 +121,10 @@ main a:hover {
     align-items: center;
     justify-content: space-between;
     margin-top: 100px;
+    margin-bottom: 150px;
 }
-.propel_item{
+
+.propel_item {
     width: 33%;
 }
 
@@ -134,13 +136,30 @@ main a:hover {
     font-size: 13px;
     margin: 10px 0;
 }
-.propel_item p{
+
+.propel_item p {
     font-size: 10px;
     color: darkgray;
     width: 50%;
     margin-right: 50%;
     line-height: 15px;
 }
-.title{
+
+.title {
     margin-top: 50px;
+}
+
+.title p {
+    width: 50%;
+    font-size: 25px;
+    margin-right: 50%;
+    line-height: 30px;
+    color: darkgray;
+    
+
+    
+}
+.title p b{
+    color: black;
+    font-size: 25px;
 }

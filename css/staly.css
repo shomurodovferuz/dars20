@@ -169,3 +169,26 @@ main a:hover {
     background-repeat: no-repeat;
     padding: 400px 0;
 }
+.decore .container p{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    text-align: center;
+    width: 61%;
+    font-size: 25px;
+    font-weight: lighter;
+    color: darkgray;
+    line-height: 40px;
+}
+.decore .container p b{
+    font-size: 25px;
+    color: black;
+}
+.decore .container a{
+    color: #5AB963;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 10px;
+    margin-bottom: 100px
+}

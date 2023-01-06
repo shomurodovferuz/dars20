@@ -265,3 +265,25 @@ main a:hover {
     color: #5AB963;
     margin-bottom: 100px;
 }
+.party .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.party_text, .party_link{
+    width: 45%;
+}
+.party_text a{
+    color: #5AB963;
+    margin: 20px 0;
+    font-size: 20px;
+}
+.party_link a{
+    background-color: #5AB963;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: .6s;
+    color: #FFFFFF;
+    margin-left: 300px;
+}

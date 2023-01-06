@@ -287,3 +287,37 @@ main a:hover {
     color: #FFFFFF;
     margin-left: 300px;
 }
+.party_link a:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 20px 3px blue;
+}
+footer{
+    background-color: black;
+    padding: 100px 0;
+}
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .container img{
+    width: 100px;
+}
+.fa-brands{
+    color: #FFFFFF;
+}
+footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer ul li {
+    width: 33%;
+    vertical-align: top;
+}
+footer ul li a {
+    display: block;
+    color: #FFFFFF;
+    width: 100%;
+    line-height: 50px;
+}
